@@ -1,0 +1,216 @@
+body {
+    background-color: rgb(255, 207, 215);
+}
+
+.pig-img {
+    position: absolute;
+    width: 150px;
+    top: 80%;
+    left: 90%;
+}
+
+.header {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.end-turn-button-style {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.end-turn-button {
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(255, 187, 232);
+    border: 2px solid rgb(192, 81, 155);
+}
+
+.end-turn-button:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+}
+
+.throw-die-style-1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.throw-die-button-1 {
+    position: relative;
+    background-image: url(images/d1.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 64px;
+    height: 64px;
+}
+
+.throw-die-button-1:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+}
+
+.throw-die-style-2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.throw-die-button-2 {
+    position: relative;
+    background-image: url(images/d1.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 64px;
+    height: 64px;
+}
+
+.throw-die-button-2:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+}
+
+.above-die-text {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+}
+
+.turn-points-display {
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+}
+
+.error-message {
+    position: absolute;
+    color: red;
+    font-size: 150%;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.player-name-input {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+}
+
+input[type="text"], textarea {
+    background-color : rgb(255, 187, 232); 
+    border-radius: 10px;
+    border: 2px solid rgb(192, 81, 155);
+  }
+
+.add-player-button {
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(255, 187, 232);
+    border: 2px solid rgb(192, 81, 155);
+}
+
+.add-player-button:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+}
+
+.start-game-button {
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(255, 187, 232);
+    border: 2px solid rgb(192, 81, 155);
+}
+
+.start-game-button:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+}
+
+.display-players-container {
+    position: absolute;
+    top: 7%;
+    left: 1%;
+    font-size: 150%;
+}
+
+.restart-game-button-style {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+}
+
+.restart-button {
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(255, 187, 232);
+    border: 2px solid rgb(192, 81, 155);
+}
+
+.restart-button:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+}
+
+.players-text {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    font-size: 150%;
+}
+
+.change-game-mode {
+    position: absolute;
+    font-size: 150%;
+    top: 12%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.change-game-mode-button {
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(255, 187, 232);
+    border: 2px solid rgb(192, 81, 155);
+}
+
+.change-game-mode-button:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+}
